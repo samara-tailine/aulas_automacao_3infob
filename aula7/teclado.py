@@ -1,7 +1,7 @@
 import pyautogui
 import time
 
-#abre uma janela de filipes entrada de dados
+#abre uma janela de entrada de dados
 pergunta = pyautogui.prompt("O que deseja saber hoje?")
 
 #pressiona um atalho do teclado 
