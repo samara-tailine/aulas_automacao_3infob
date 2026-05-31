@@ -6,7 +6,7 @@ while True:
         print("Bem-vindo")
         break
     else:
-        print("Usuário ou senha inválido")
+        print("Usuário ou senha inválido") 
 
 
 #ou
