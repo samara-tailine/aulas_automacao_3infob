@@ -1,4 +1,4 @@
-import pyautogui
+import pyautogui 
 import time
 
 #abre uma janela de entrada de dados
