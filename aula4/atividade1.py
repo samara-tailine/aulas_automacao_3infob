@@ -1,5 +1,5 @@
 while True: 
-    usuario = input("Digite seu usuário: ")
+    usuario = input("Digite seu usuário: ") 
     senha = input("Digite sua senha: ")
 
     if (usuario == 'admin' and senha == 'admin123'):
