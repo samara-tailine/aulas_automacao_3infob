@@ -1,4 +1,4 @@
-import pandas as pd
+import pandas as pd 
 
 #ler a planilha do Excel utilizando pandas
 planilha = pd.read_excel('aula8\\Alunos.xlsx')
