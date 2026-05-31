@@ -1,3 +1,4 @@
+#excercício 1
 salario = input("Digite seu salário: ")
 inss = int(salario) * (11/100)
 fgts = int(salario) * (7.5/100)
