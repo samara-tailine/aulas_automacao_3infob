@@ -1,7 +1,7 @@
 import pyautogui
 import time
 
-pyautogui.hotkey("win")
+pyautogui.hotkey("win") 
 pyautogui.write('paint')
 pyautogui.press('enter')
 

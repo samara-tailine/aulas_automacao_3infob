@@ -1,4 +1,4 @@
-import pyautogui
+import pyautogui 
 import time
 
 pyautogui.hotkey("win")
