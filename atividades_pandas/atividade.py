@@ -23,5 +23,29 @@ resposta = df_notas.loc[df_notas['Nota'] > 7]
 print(resposta)
 
 #6
-resposta = df_notas.groupby('Nome')
+resposta = df_notas.groupby('Nome')['Nota'].mean()
+print(resposta)
 
+#7
+resposta = df_notas[['Nome', 'Nota']]
+print(resposta)
+
+#8
+resposta = df_notas.loc[df_notas['Atividade'] == 'Prova Final']
+print(resposta)
+
+#9
+resposta = df_notas.loc[df_notas['Nota'] > 7, ['Nome', 'Atividade']]
+print(resposta)
+
+#10
+df_ordenado = df_notas.sort_values(by='Nome')
+print(df_ordenado)
+
+#11
+resposta = pd.merge(df_notas, df_atividades, on='Atividade')
+print(resposta)
+
+#12
+df_ordenado.to_excel("notas_estudantes_ordenado.xlsx", index=False)
+print(df_ordenado)
